@@ -1,1 +1,1 @@
-web: node server.js
+web: MONGO_URI=mongodb+srv://lgcaetano:luisemgrego2008@fcccluster.9a9vh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority node server.js

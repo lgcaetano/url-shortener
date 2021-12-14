@@ -4,7 +4,7 @@
   "description": "API project for freeCodeCamp",
   "main": "server.js",
   "scripts": {
-    "start": "MONGO_URI=mongodb+srv://lgcaetano:luisemgrego2008@fcccluster.9a9vh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority node server.js",
+    "start": "node server.js",
     "watch": "nodemon -L server.js",
     "dev": "nodemon server.js"
   },
@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "heroku": "^7.59.2",
     "mongodb": "^4.2.2",
     "mongoose": "^6.1.1",
     "valid-url": "^1.0.9"

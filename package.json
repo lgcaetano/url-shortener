@@ -3,19 +3,26 @@
   "version": "0.0.3",
   "description": "API project for freeCodeCamp",
   "main": "server.js",
+  "engines": {
+    "node": "16.11.0",
+    "npm": "8.x"
+  },
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon -L server.js",
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "async-file": "^2.0.2",
     "body-parser": "^1.19.1",
+    "cli-ux": "^6.0.6",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "heroku": "^7.59.2",
+    "got": "^12.0.0",
     "mongodb": "^4.2.2",
     "mongoose": "^6.1.1",
+    "phoenix": "^1.6.4",
     "valid-url": "^1.0.9"
   },
   "license": "MIT",
